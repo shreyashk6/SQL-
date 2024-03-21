@@ -76,7 +76,7 @@ WHERE B.BRANCH_NAME='MANGALURU'AND B.BRANCH_ID=A.BRANCH_ID
 AND A.CUSTOMER_ID=C.CUSTOMER_ID;
 
 
-QUERY 2:- Find all the customers who have an account at all the branches located in a specific city.
+QUERY 2:- Find all the customers who deposited highest amount among all customers.
 
 SELECT C.CUSTOMER_ID,C.CUSTOMER_NAME,A.ACCOUNT_BALANCE FROM 
 CUSTOMER C,ACCOUNT A
